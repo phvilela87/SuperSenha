@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB5D500226D17E5E00354D6A /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5D500126D17E5E00354D6A /* PasswordsViewController.swift */; };
+		EB5D500426D17FBB00354D6A /* SecurityTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5D500326D17FBA00354D6A /* SecurityTipsViewController.swift */; };
+		EB5D500626D1803B00354D6A /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5D500526D1803B00354D6A /* PasswordGenerator.swift */; };
+		EBA28E8726D15E59004CDF0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA28E8626D15E59004CDF0F /* AppDelegate.swift */; };
+		EBA28E8926D15E59004CDF0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA28E8826D15E59004CDF0F /* SceneDelegate.swift */; };
+		EBA28E8B26D15E59004CDF0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA28E8A26D15E59004CDF0F /* ViewController.swift */; };
+		EBA28E8E26D15E59004CDF0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA28E8C26D15E59004CDF0F /* Main.storyboard */; };
+		EBA28E9026D15E5B004CDF0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA28E8F26D15E5B004CDF0F /* Assets.xcassets */; };
+		EBA28E9326D15E5B004CDF0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA28E9126D15E5B004CDF0F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB5D500126D17E5E00354D6A /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		EB5D500326D17FBA00354D6A /* SecurityTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityTipsViewController.swift; sourceTree = "<group>"; };
+		EB5D500526D1803B00354D6A /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
+		EBA28E8326D15E59004CDF0F /* SuperSenha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSenha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA28E8626D15E59004CDF0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBA28E8826D15E59004CDF0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBA28E8A26D15E59004CDF0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBA28E8D26D15E59004CDF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBA28E8F26D15E5B004CDF0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBA28E9226D15E5B004CDF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBA28E9426D15E5B004CDF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBA28E8026D15E59004CDF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBA28E7A26D15E59004CDF0F = {
+			isa = PBXGroup;
+			children = (
+				EBA28E8526D15E59004CDF0F /* SuperSenha */,
+				EBA28E8426D15E59004CDF0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBA28E8426D15E59004CDF0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBA28E8326D15E59004CDF0F /* SuperSenha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBA28E8526D15E59004CDF0F /* SuperSenha */ = {
+			isa = PBXGroup;
+			children = (
+				EBA28E8626D15E59004CDF0F /* AppDelegate.swift */,
+				EBA28E8826D15E59004CDF0F /* SceneDelegate.swift */,
+				EBA28E8A26D15E59004CDF0F /* ViewController.swift */,
+				EBA28E8C26D15E59004CDF0F /* Main.storyboard */,
+				EB5D500126D17E5E00354D6A /* PasswordsViewController.swift */,
+				EB5D500326D17FBA00354D6A /* SecurityTipsViewController.swift */,
+				EB5D500526D1803B00354D6A /* PasswordGenerator.swift */,
+				EBA28E8F26D15E5B004CDF0F /* Assets.xcassets */,
+				EBA28E9126D15E5B004CDF0F /* LaunchScreen.storyboard */,
+				EBA28E9426D15E5B004CDF0F /* Info.plist */,
+			);
+			path = SuperSenha;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBA28E8226D15E59004CDF0F /* SuperSenha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA28E9726D15E5B004CDF0F /* Build configuration list for PBXNativeTarget "SuperSenha" */;
+			buildPhases = (
+				EBA28E7F26D15E59004CDF0F /* Sources */,
+				EBA28E8026D15E59004CDF0F /* Frameworks */,
+				EBA28E8126D15E59004CDF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperSenha;
+			productName = SuperSenha;
+			productReference = EBA28E8326D15E59004CDF0F /* SuperSenha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBA28E7B26D15E59004CDF0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EBA28E8226D15E59004CDF0F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = EBA28E7E26D15E59004CDF0F /* Build configuration list for PBXProject "SuperSenha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBA28E7A26D15E59004CDF0F;
+			productRefGroup = EBA28E8426D15E59004CDF0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBA28E8226D15E59004CDF0F /* SuperSenha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBA28E8126D15E59004CDF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA28E9326D15E5B004CDF0F /* LaunchScreen.storyboard in Resources */,
+				EBA28E9026D15E5B004CDF0F /* Assets.xcassets in Resources */,
+				EBA28E8E26D15E59004CDF0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBA28E7F26D15E59004CDF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA28E8B26D15E59004CDF0F /* ViewController.swift in Sources */,
+				EB5D500226D17E5E00354D6A /* PasswordsViewController.swift in Sources */,
+				EB5D500626D1803B00354D6A /* PasswordGenerator.swift in Sources */,
+				EBA28E8726D15E59004CDF0F /* AppDelegate.swift in Sources */,
+				EBA28E8926D15E59004CDF0F /* SceneDelegate.swift in Sources */,
+				EB5D500426D17FBB00354D6A /* SecurityTipsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBA28E8C26D15E59004CDF0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA28E8D26D15E59004CDF0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBA28E9126D15E5B004CDF0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA28E9226D15E5B004CDF0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBA28E9526D15E5B004CDF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBA28E9626D15E5B004CDF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBA28E9826D15E5B004CDF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL6NCE2VD5;
+				INFOPLIST_FILE = SuperSenha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phvilela87.SuperSenha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EBA28E9926D15E5B004CDF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GL6NCE2VD5;
+				INFOPLIST_FILE = SuperSenha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phvilela87.SuperSenha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBA28E7E26D15E59004CDF0F /* Build configuration list for PBXProject "SuperSenha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA28E9526D15E5B004CDF0F /* Debug */,
+				EBA28E9626D15E5B004CDF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA28E9726D15E5B004CDF0F /* Build configuration list for PBXNativeTarget "SuperSenha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA28E9826D15E5B004CDF0F /* Debug */,
+				EBA28E9926D15E5B004CDF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBA28E7B26D15E59004CDF0F /* Project object */;
+}
